@@ -13,13 +13,14 @@
 
 .b-center {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ecf0f1;
   text-align: center;
   width: 100%;
   font-size: 48px;
+  font-weight: 700;
 }
 
 
