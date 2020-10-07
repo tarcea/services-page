@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Main = () => {
+const Flight = () => {
   return (
     <div>
-      Main content
+      Flights
     </div>
   );
 }
 
-export default Main;
+export default Flight;
