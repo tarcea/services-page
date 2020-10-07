@@ -1,4 +1,5 @@
 import React from "react";
+import { CURRENT_YEAR } from '../../config';
 import "./footer.css";
 
 const twitter = "/images/twitter.png";
@@ -42,7 +43,7 @@ function Footer() {
             <li>+46 73 555 5 134</li>
             <li>info@globuzzer.com</li>
             <li style={{ paddingTop: "50px" }}>
-              2019 Globuzzer All rights reserved
+              { CURRENT_YEAR } Globuzzer All rights reserved
             </li>
           </ul>
 
