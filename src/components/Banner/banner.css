@@ -19,6 +19,11 @@
   color: #ecf0f1;
   text-align: center;
   width: 100%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 64.36px;
 }
 
 .banner-nav {
