@@ -17,11 +17,11 @@ const Banner = () => {
           </div>
           <div className="banner-nav">
           <ul>
-            <li><Link to="/event" activeClassName="active">Events</Link></li>
-            <li><Link to="/restaurant" activeClassName="active">Restaurants</Link></li>
-            <li><Link to="/flight" activeClassName="active">Flights</Link></li>
-            <li><Link to="/job" activeClassName="active">Jobs</Link></li>
-            <li><Link to="/hotel" activeClassName="active">Hotels</Link></li>
+            <li><Link to="/event">Event</Link></li>
+            <li><Link to="/flight">Flight</Link></li>
+            <li><Link to="/hotel">Hotel</Link></li>
+            <li><Link to="/job">Job</Link></li>
+            <li><Link to="/restaurant">Restaurant</Link></li>
           </ul>
           </div>
         </div>

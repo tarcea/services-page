@@ -116,7 +116,7 @@ function Menu() {
           </li>
 
           <li className="m-list service">
-            Services
+            <Link to="/"> Services </Link>
             <IconContext.Provider value={{ className: "dropdown" }}>
               <RiArrowDropDownFill />
             </IconContext.Provider>
@@ -255,7 +255,7 @@ function Menu() {
                 <FiSettings />
               </IconContext.Provider>
             </span>
-            <span>Services</span>
+            <span><Link to="/">Service</Link></span>
           </li>
           <li>
             <span>
