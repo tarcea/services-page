@@ -23,16 +23,16 @@
   font-weight: 700;
   font-size: 48px;
   font-style: normal;
-  line-height: 64.36px;
+  /*line-height: 64.36px;*/
 }
 
 .banner-nav {
   color: #fff;
   position: absolute;
-  left: 100px;
-  right: 100px;
+  left: 1%;
+  right: 1%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
 }
 
