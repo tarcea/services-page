@@ -8,3 +8,30 @@
 a {
   text-decoration: none;
 }*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+select {
+  -webkit-appearance: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+button:hover {
+  filter: brightness(130%);
+}

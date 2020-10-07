@@ -11,7 +11,6 @@ import { VscThreeBars } from "react-icons/vsc";
 import { RiArrowDropDownFill } from "react-icons/ri";
 import "./menu.css";
 
-
 const icon_img = "/images/Vector.png";
 const logo = "/images/globuzzer_logo.png";
 
@@ -214,7 +213,7 @@ function Menu() {
         <ul className="m-right">
           <li>
             <img src={weather.icon || icon_img} alt="weather-icon" />
-            {weather.temp || "0"}
+            {weather.temp || " 0"}
           </li>
           <li>Log in</li>
           <li>
