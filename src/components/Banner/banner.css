@@ -51,8 +51,16 @@
 }
 
 .banner-nav a:hover {
-  color: #F24B6A;
+  /*color: #F24B6A;*/
+  filter: brightness(120%);
 }
+
+.banner-link-selected {
+  background: #f24b6a;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
 
 .form {
 
