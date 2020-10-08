@@ -10,7 +10,7 @@ const Event = () => {
       <div className="right-scene">
       Events
         <div className="parent">
-          <div Name="event-card">
+          <div className="event-card">
             <a href="www">
               <div className="event-img event-img-1">
                 <div className="price centralized">
@@ -42,7 +42,7 @@ const Event = () => {
             </a>
           </div>
 
-        <div Name="event-card">
+        <div className="event-card">
             <a href="www">
               <div className="event-img event-img-2">
                 <div className="price centralized">
@@ -74,7 +74,7 @@ const Event = () => {
             </a>
           </div>
 
-        <div Name="event-card">
+        <div className="event-card">
             <a href="www">
               <div className="event-img event-img-3">
                 <div className="price centralized">
