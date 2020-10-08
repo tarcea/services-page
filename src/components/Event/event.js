@@ -5,7 +5,6 @@ const Event = () => {
   return (
     <div className="event-container">
       <div className="left-scene">
-      LEFT
       </div>
       <div className="right-scene">
       Events
