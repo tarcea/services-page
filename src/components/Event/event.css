@@ -5,12 +5,16 @@
 }
 
 .event-container {
+  position: relative;
+  width: 100%;
+  max-width: 1340px;
   display: flex;
-  height: 50vh;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .left-scene {
-  flex: 0 0 20%;
+  flex: 0 0 15%;
   position: sticky;
   display: flex;
   flex-direction: column;
@@ -18,9 +22,12 @@
 }
 
 .right-scene {
-  flex: 0 0 80%;
+  flex: 0 0 85%;
   /*background-color: grey;*/
-  overflow: scroll;
+  /*overflow: scroll;*/
+  /*display: block;*/
+  /*padding-left: 51px;*/
+  padding-top: 61px;
 }
 
 .parent {
@@ -66,6 +73,7 @@ li{
   width: 313.5px;
   height: 264px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 8px;
 }
 .event-card:hover{
   filter: brightness(120%);

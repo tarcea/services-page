@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Form from '../Form/form';
+// import Form from '../Form/form';
 
 import './banner.css';
-
-
 
 const Banner = () => {
   return (
@@ -12,7 +10,7 @@ const Banner = () => {
         <div className="b-center">
          Plan everithing of your jurney here !
           <div className="form">
-            <Form type="text" placeholder="location" />
+            <input type="text" placeholder="location" />
             <input type="date" placeholder="from" />
             <input type="date" placeholder="to" />
             <input type="text" placeholder="how many persons?" />
@@ -20,7 +18,7 @@ const Banner = () => {
           </div>
           <div className="banner-nav">
           <ul>
-            <li><Link to="/event">Event</Link></li>
+            <li><Link to="/event" className="banner-link-selected">Event</Link></li>
             <li><Link to="/flight">Flight</Link></li>
             <li><Link to="/hotel">Hotel</Link></li>
             <li><Link to="/job">Job</Link></li>
