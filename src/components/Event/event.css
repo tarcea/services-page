@@ -1,3 +1,8 @@
+/*react-icons*/
+.global-class-name {
+  position: relative;
+  top: 2px;
+}
 
 .event-container {
   display: flex;
@@ -166,7 +171,7 @@ color: #888888;
 }
 .event-infor > .calendar-frame{
   width: 47px;
-  height: 62px;
+  height: 63px;
   background-image: url(/images/calendar-frame.png);
   grid-row-start: 2;
   grid-row-end: 4;
@@ -223,7 +228,6 @@ color: #888888;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .small-white-circle{
 align-items: center;
@@ -231,6 +235,8 @@ width: 20px;
 height: 20px;
 background: #FFFFFF;
 border-radius: 50%;
+position: relative;
+  top: 5px;
 }
 
 .share-like{
