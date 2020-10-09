@@ -48,7 +48,7 @@ export const eventsData = [
     imgPath: "/images/event-found-3.png",
     info: {
       title: "Long Night of Museums",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
     },
     categories: ['museum', 'architecture', 'exhibitions'],
     date: {
@@ -67,7 +67,7 @@ export const eventsData = [
     imgPath: "/images/event-found-3.png",
     info: {
       title: "Long Night of Museums",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
     },
     categories: ['museum', 'architecture', 'exhibitions'],
     date: {
@@ -86,7 +86,7 @@ export const eventsData = [
     imgPath: "/images/event-found-2.png",
     info: {
       title: "Long Night of Museums",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
     },
     categories: ['museum', 'architecture', 'exhibitions'],
     date: {

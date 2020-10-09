@@ -166,7 +166,7 @@ color: #888888;
 }
 .event-infor > .calendar-frame{
   width: 47px;
-  height: 58.89px;
+  height: 62px;
   background-image: url(/images/calendar-frame.png);
   grid-row-start: 2;
   grid-row-end: 4;
