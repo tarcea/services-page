@@ -71,13 +71,13 @@ li{
   width: 100%;
   height: 150.66px;
   background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-display: grid;
-grid-template-columns: auto auto;
-grid-template-rows: 86% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 86% auto;
 }
-.event-img-1{
+/*.event-img-1{
 background-image: url('/images/event-found-1.png');
 }
 .event-img-2{
@@ -85,7 +85,7 @@ background-image: url('/images/event-found-2.png');
 }
 .event-img-3{
 background-image: url('/images/event-found-3.png');
-}
+}*/
 .price{
   width: 46.79px;
   height: 16.29px;
@@ -196,6 +196,7 @@ color: #888888;
 .event-infor > .btns-rows{
   display: flex;
   flex-direction: row;
+  /*justify-content: space-around;*/
 }
 .event-infor > .btns-rows div{
   padding: 3px 10px;
@@ -211,17 +212,27 @@ color: #888888;
   align-items: center;
   color: #FFFFFF;
   height: fit-content;
+  margin-right: 6px
 }
 .event-infor > .btns-rows .btn-dance{
   margin-left: 6px;
   margin-right: 6px;
 }
 
-.centralized{
+.centralized {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
+.small-white-circle{
+align-items: center;
+width: 20px;
+height: 20px;
+background: #FFFFFF;
+border-radius: 50%;
+}
+
 .share-like{
 position: relative;
 height: 20px;
@@ -235,12 +246,7 @@ justify-self: flex-end;
 .share-like .fa-share:before, .share-like .fa-heart:before{
 color: #F24B6A;
 }
-.small-white-circle{
-width: 20px;
-height: 20px;
-background: #FFFFFF;
-border-radius: 50%;
-}
+
 .like-rate{
 margin-left: 14px;
 }
