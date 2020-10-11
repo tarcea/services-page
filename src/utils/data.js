@@ -64,7 +64,7 @@ export const eventsData = [
     likes: 2000,
     liked: false,
     shared: true,
-    imgPath: "/images/event-found-3.png",
+    imgPath: "/images/event-found-1.png",
     info: {
       title: "Long Night of Museums",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
@@ -103,6 +103,196 @@ export const eventsData = [
     liked: false,
     shared: true,
     imgPath: "/images/event-found-1.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 7,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-2.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 8,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-3.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 9,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-1.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 10,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-2.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 11,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-3.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 12,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-1.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 13,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-3.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 14,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-2.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore",
+    },
+    categories: ['museum', 'architecture', 'exhibitions'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 15,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-1.png",
+    info: {
+      title: "Long Night of Museums",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",
+    },
+    categories: ['museum', 'architecture', 'exhibitions', 'dance', 'food', 'spa', 'trainspotting'],
+    date: {
+      year: 2020,
+      month: 'Dec',
+      date: 20,
+      day: 'Sunday'
+    }
+  },
+  {
+    id: 16,
+    price: "€25",
+    likes: 2000,
+    liked: false,
+    shared: true,
+    imgPath: "/images/event-found-2.png",
     info: {
       title: "Long Night of Museums",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore ",

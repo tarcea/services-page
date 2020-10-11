@@ -3,6 +3,8 @@ import { IconContext } from "react-icons";
 import { IoIosShareAlt, IoIosHeart } from 'react-icons/io';
 import { eventsData } from '../../utils/data';
 import './event.css';
+// Components
+import Filter from './Filter/filter';
 
 const Event = () => {
   return (
@@ -11,6 +13,9 @@ const Event = () => {
       <div className="left-scene">
       </div>
       <div className="right-scene">
+        <div className="results-top">
+          <p className="results-found">Helsinky: {eventsData.length} events found</p>
+        </div>
         <div className="parent">
           {eventsData.map((event) => {
             const styles = {backgroundImage: `url(${event.imgPath})`};

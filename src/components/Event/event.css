@@ -70,10 +70,12 @@ li{
 }
 
 .event-card {
-  width: 313.5px;
-  height: 264px;
+  position:relative;
+  /*width: 313.5px;
+  height: 264px;*/
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 8px;
+
 }
 .event-card:hover{
   filter: brightness(120%);
@@ -90,15 +92,7 @@ li{
   grid-template-columns: auto auto;
   grid-template-rows: 86% auto;
 }
-/*.event-img-1{
-background-image: url('/images/event-found-1.png');
-}
-.event-img-2{
-background-image: url('/images/event-found-2.png');
-}
-.event-img-3{
-background-image: url('/images/event-found-3.png');
-}*/
+
 .price{
   width: 46.79px;
   height: 16.29px;
@@ -153,29 +147,27 @@ margin-left: 14px;
 }
 .event-infor > .title{
   font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
 color: #555555;
 }
 .event-infor > .description{
   font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 9px;
-line-height: 152.38%;
-/* or 14px */
-
-display: flex;
-align-items: center;
-
-color: #888888;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 152.38%;
+  /* or 14px */
+  display: flex;
+  align-items: center;
+  color: #888888;
 }
 .event-infor > .calendar-frame{
   width: 47px;
@@ -227,6 +219,12 @@ color: #888888;
   height: fit-content;
   margin-right: 6px
 }
+
+.btns-rows {
+  display: flex;
+  align-items: space-around;
+  flex-wrap: wrap;
+}
 .event-infor > .btns-rows .btn-dance{
   margin-left: 6px;
   margin-right: 6px;
@@ -274,6 +272,28 @@ margin-left: 14px;
   grid-row-gap: 25px;
 }
 
+.results-top {
+  width: 100%;
+  height: 52px;
+  padding-bottom: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.results-found {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 134.09%;
+  /* or 32px */
+  display: flex;
+  align-items: center;
+  color: #646464;
+}
 
+.btn-design {
 
+}

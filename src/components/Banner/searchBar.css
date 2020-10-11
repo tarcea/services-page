@@ -1,0 +1,92 @@
+.container {
+    display:flex;
+    flex-direction:column;
+    padding:8px;
+    justify-content:center;
+    align-content:center;
+}
+
+.field-a, .field-b, .field-c {
+    padding:8px;
+    background:#ffffff;
+    font-size:16px;
+    display:flex;
+    justify-content:center;
+    margin-right:1px;
+    margin-bottom:1px;
+
+}
+
+
+input{
+    border:0px solid ;
+    border-radius:3px;
+    background:#ffffff;
+}
+
+input[type="submit"] {
+    background:#Abc255;
+    width:100%;
+}
+
+.field-aa::placeholder, .field-cc::placeholder {
+    text-align:center;
+    opacity:35%;
+}
+
+.field-a {
+    border-radius:8px 8px 0 0px;
+}
+
+.field-b {
+    border-radius:0px 0px 8px 8px;
+}
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  .container {
+    display:flex;
+    flex-direction:row;
+    padding:8px;
+    margin:8px;
+}
+
+
+ .vertical-line{
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        margin: 0 10px;
+        height: 24px;
+
+}
+.field-a {
+    border-radius:8px 0 0 8px;
+}
+
+.field-b {
+    border-radius:0px 8px 8px 0px;
+}
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+}
+

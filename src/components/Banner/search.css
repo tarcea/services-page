@@ -1,0 +1,135 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+/*search fields*/
+.search-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.select-1,
+.select-2,
+.select-3,
+.select-4 {
+  padding:8px;
+  background:#ffffff;
+  font-size:16px;
+  display:flex;
+  justify-content:center;
+
+}
+
+.select-1 {
+      border-radius:8px 8px 0 0px;
+  }
+
+.select-4 {
+      border-radius:0px 0px 8px 8px;
+  }
+
+.input-field-icon {
+  padding: .5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-event-input {
+  border-bottom: 1px solid #CCC;
+}
+.search-event-params {
+  margin: 0px;
+}
+.search-event-params p {
+  font-size: 10px;
+  /*background: #ffffff;*/
+}
+
+/*button let's go!*/
+.lets-go-btn div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 145.17px;
+  height: 38px;
+  background: #F24B6A;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.lets-go-btn p{
+  height: 20.42px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.lets-go-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .search-events {
+    display:flex;
+    flex-direction:row;
+    padding:8px;
+    margin:8px;
+  }
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .search-events {
+    display:flex;
+    flex-direction:row;
+    padding:8px;
+    margin:8px;
+  }
+
+  .select-1 {
+      border-radius:8px 0 0 8px;
+  }
+
+  .select-4 {
+      border-radius:0px 8px 8px 0px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  .search-events {
+    display:flex;
+    flex-direction:row;
+    padding:8px;
+    margin:8px;
+  }
+
+  .select-1 {
+      border-radius:8px 0 0 8px;
+  }
+
+  .select-4 {
+      border-radius:0px 8px 8px 0px;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+ }
+
