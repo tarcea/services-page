@@ -3,8 +3,9 @@
 }
 
 .filter-left {
-  padding-top: 120px;
+  /*padding-top: 8px;*/
   display: flex;
+  margin-left: 8px;
 
 }
 
@@ -18,7 +19,7 @@
   line-height: 134.09%;
   /* or 32px */
   display: flex;
-  align-items: center;
+  align-items: start;
   text-align: center;
   color: #737070;
 }
@@ -39,7 +40,7 @@
 
 .event-filter-row {
   width: 100%;
-  padding-top: 70px;
+  padding-top: 8px;
   background: rgba(252, 248, 248, 0.5);
 }
 
@@ -57,11 +58,17 @@
   color: #737070;
 }
 
-.options-row p {
+.options-row {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.event-date {
   padding: 4px 9px;
   border: 1px solid #AAAAAA;
   box-sizing: border-box;
   border-radius: 3px;
+  margin: 2px;
 }
 
 .actived-event-date{
@@ -74,9 +81,6 @@
   border: 1px solid #AAAAAA;
   box-sizing: border-box;
   border-radius: 3px;
-  margin-left: 12px;
-  margin-right: 12px;
-  padding-top: 12px;
   justify-content: center;
 }
 
@@ -92,11 +96,14 @@
   color: #737070;
 }
 
+
 @media (min-width: 768px) {
 
   .filter-left {
     flex-direction: column;
   }
+
+
 
 }
 
