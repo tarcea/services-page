@@ -4,6 +4,7 @@
 
 .filter-left {
   padding-top: 120px;
+  display: flex;
 
 }
 
@@ -89,5 +90,13 @@
   /*align-items: center;*/
   /*text-align: center;*/
   color: #737070;
+}
+
+@media (min-width: 768px) {
+
+  .filter-left {
+    flex-direction: column;
+  }
+
 }
 

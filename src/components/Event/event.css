@@ -9,7 +9,7 @@
   width: 100%;
   max-width: 1340px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -270,5 +270,13 @@ margin-left: 14px;
 }
 
 .btn-design {
+
+}
+
+@media (min-width: 768px) {
+
+  .event-container {
+    flex-direction: row;
+  }
 
 }
