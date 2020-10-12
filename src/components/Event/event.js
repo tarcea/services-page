@@ -11,6 +11,7 @@ const Event = () => {
 
     <div className="event-container">
       <div className="left-scene">
+      <Filter />
       </div>
       <div className="right-scene">
         <div className="results-top">
