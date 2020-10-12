@@ -1,4 +1,6 @@
 
+
+
 .container {
   display: flex;
   justify-content: center;
@@ -11,28 +13,16 @@
   align-items: center;
   background: #ffffff;
   border-radius: 5px;
-  width: 100%;
+  width: 90%;
 }
 
-.select-1,
-.select-2,
-.select-3,
-.select-4 {
+.search-event-params {
   padding:8px;
   background:#ffffff;
   font-size:16px;
   display:flex;
   justify-content:center;
-
 }
-
-.select-1 {
-      border-radius:8px 8px 0 0px;
-  }
-
-.select-4 {
-      border-radius:0px 0px 8px 8px;
-  }
 
 .input-field-icon {
   padding: .5rem;
@@ -50,7 +40,7 @@
 }
 .search-event-params p {
   font-size: 10px;
-  /*background: #ffffff;*/
+  background: #ffffff;
 }
 
 /*button let's go!*/
@@ -58,11 +48,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 145.17px;
+  /*width: 145.17px;*/
+  width: 80%;
   height: 38px;
   background: #F24B6A;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 8px;
 }
 .lets-go-btn p{
   height: 20.42px;
@@ -71,7 +63,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   color: #FFFFFF;
 }
@@ -83,49 +75,37 @@
 
  /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  .search-events {
-    display:flex;
-    flex-direction:row;
-    padding:8px;
-    margin:8px;
-  }
+
 }
 
  /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .search-events {
-    display:flex;
     flex-direction:row;
     padding:8px;
     margin:8px;
+    overflow: scroll;
   }
 
-  .select-1 {
-      border-radius:8px 0 0 8px;
+  .search-event-params {
+    border-right: 1px solid;
   }
 
-  .select-4 {
-      border-radius:0px 8px 8px 0px;
+  .lets-go-btn div {
+    margin: 0 auto;
+  }
+
+  .container {
+
   }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
-  .search-events {
-    display:flex;
-    flex-direction:row;
-    padding:8px;
-    margin:8px;
-  }
 
-  .select-1 {
-      border-radius:8px 0 0 8px;
-  }
 
-  .select-4 {
-      border-radius:0px 8px 8px 0px;
-  }
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/

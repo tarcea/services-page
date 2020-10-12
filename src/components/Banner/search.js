@@ -39,7 +39,6 @@ const Search = () => {
                 <input id="guest-number-2" className="search-event-input" type="text" placeholder="number guests" />
                 <FaChevronDown style={{color: "#000000", opacity: "38%", fontSize: "16px", position: "relative", right:"25px"}} />
             </div>
-
         </div>
         <div className="lets-go-btn">
             <div>
