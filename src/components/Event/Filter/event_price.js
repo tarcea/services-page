@@ -12,7 +12,7 @@ const EventPrice = () => {
       <div className="slider-box">
         <div className="price-range">
           <input type="range" />
-        {/*TODO:double thumb slider as a new component*/}
+        {/*TODO:double thumb slider as a new component??*/}
         </div>
       </div>
     </div>
