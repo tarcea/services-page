@@ -1,12 +1,8 @@
-.search-icons-selected {
-  color: #F24B6A;
-}
 
 .filter-left {
-  /*padding-top: 8px;*/
+  /*padding-top: 24px;*/
   display: flex;
-  margin-left: 8px;
-
+  margin-left: 2px;
 }
 
 .filter-left-title {
@@ -18,8 +14,8 @@
   font-size: 24px;
   line-height: 134.09%;
   /* or 32px */
-  display: flex;
-  align-items: start;
+  /*display: flex;*/
+  align-items: flex-start;
   text-align: center;
   color: #737070;
 }
@@ -40,8 +36,22 @@
 
 .event-filter-row {
   width: 100%;
-  padding-top: 8px;
-  background: rgba(252, 248, 248, 0.5);
+  padding: 40px 20px 0 20px;
+  background: #ffffff;
+}
+
+/*LOCATION*/
+.search-icons-selected {
+  color: #F24B6A;
+}
+/*DATE*/ /*CATEGORY*/
+.event-date {
+  padding: 4px 9px;
+  border: 1px solid #AAAAAA;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 2px;
+  margin-bottom: 8px
 }
 
 .options {
@@ -62,13 +72,7 @@
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
-}
-.event-date {
-  padding: 4px 9px;
-  border: 1px solid #AAAAAA;
-  box-sizing: border-box;
-  border-radius: 3px;
-  margin: 2px;
+
 }
 
 .actived-event-date{
@@ -96,6 +100,86 @@
   color: #737070;
 }
 
+.input-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+
+.event-category {
+  padding-top: 52px;
+}
+/*PRICE*/
+.event-price {
+  padding-top: 50px;
+}
+
+.event-price .price-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 43px;
+}
+
+.price-range{
+  background: #F24B6A;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 134.09%;
+  /* or 16px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FEE9ED;
+  padding: 4px 32px;
+}
+
+.slider-box {
+width: 260.33px;
+height: 5px;
+}
+/*VIMEO*/
+.event-vimeo {
+  padding-top: 70px;
+}
+
+.vimeo-card{
+  width: 308px;
+  height: 83px;
+  background: #F2A413;
+}
+.vimeo-title {
+  padding-left: 26px;
+  padding-top: 12px;
+  font-family: Candal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.vimeo-description{
+  padding-left: 26px;
+  padding-top: 7px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+
+/*MOBILE FIRST */
 
 @media (min-width: 768px) {
 
@@ -103,6 +187,9 @@
     flex-direction: column;
   }
 
+  .filter-left {
+    padding-top: 64px
+  }
 
 
 }
