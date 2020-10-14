@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 function BannerNav() {
   const handleClick = (e) => {
-  // console.log(e.target.classList.value)
-  // console.log(e.target.innerText)
-  // e.target.classList.add("banner-link-selected");
-  // e.target.classList.remove("banner-link-selected");
-  e.target.classList.toggle("banner-link-selected");
+    const lili = document.getElementById('banner-link').getElementsByTagName("a");
+    for (let i = 0; i < lili.length; i++) {
+      lili[i].classList.remove('banner-link-selected');
+    }
+    e.target.classList.add('banner-link-selected');
 }
   return (
-    <ul>
-            <li onClick={handleClick}><Link to="/event" >Event</Link></li>
-            <li onClick={handleClick}><Link to="/flight">Flight</Link></li>
-            <li onClick={handleClick}><Link to="/hotel">Hotel</Link></li>
-            <li onClick={handleClick}><Link to="/job">Job</Link></li>
-            <li onClick={handleClick}><Link to="/restaurant">Restaurant</Link></li>
-          </ul>
+    <ul id="banner-link">
+      <li><Link to="/event" onClick={handleClick}>Event</Link></li>
+      <li><Link to="/flight" onClick={handleClick}>Flight</Link></li>
+      <li><Link to="/hotel" onClick={handleClick}>Hotel</Link></li>
+      <li><Link to="/job" onClick={handleClick}>Job</Link></li>
+      <li><Link to="/restaurant" onClick={handleClick}>Restaurant</Link></li>
+    </ul>
   );
 }
 

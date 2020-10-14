@@ -12,7 +12,7 @@ const Banner = () => {
   return (
       <div className="banner">
         <div className="b-center">
-         Plan everithing of your jurney here !
+         Plan everything of your journey here !
           <div className="form">
             <Search />
           </div>
