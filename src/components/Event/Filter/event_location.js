@@ -8,7 +8,7 @@ const EventLocation = () => {
       <p className="filter-left-subtitle">Location:</p>
       <div className="row-2 input-field-icon">
         <MdLocationOn className="search-icons-selected" />
-        <input id="location-input-1" className="search-event-input" type="text" placeholder="the place" defaultValue="Helsinky city center" />
+        <input id="location-input-1" className="search-event-input" type="text" placeholder="the place" defaultValue="Helsinki city center" />
         <FaChevronDown className="search-icons relative-right"/>
       </div>
     </div>

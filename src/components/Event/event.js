@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IconContext } from "react-icons";
 import { IoIosShareAlt, IoIosHeart } from 'react-icons/io';
 import { eventsData } from '../../utils/data';
@@ -7,7 +7,8 @@ import './event.css';
 // Components
 import Filter from './Filter/filter';
 
-const Event = () => {
+function Event() {
+  const [data, setData] = useState(eventsData);
   return (
     <div className="main-container">
     <div className="event-container">
@@ -16,10 +17,10 @@ const Event = () => {
       </div>
       <div className="right-scene">
         <div className="results-top">
-          <p className="results-found">Helsinky: {eventsData.length} events found</p>
+          <p className="results-found">Helsinki: {data.length} events found</p>
         </div>
         <div className="parent">
-          {eventsData.slice(0, 6).map((event) => {
+          {data.slice(0, 6).map((event) => {
             const styles = {backgroundImage: `url(${event.imgPath})`};
             return (
               <div className="event-card" key={event.id}>
@@ -54,13 +55,11 @@ const Event = () => {
                   </div>
                     <p className="description">{event.info.description}</p>
                     <div className="btns-rows">
-                      {event.categories.map((category, index) => {
-                          return (
+                      {event.categories.map((category, index) => (
                         <span key={index}>
                           <div className="btn-design">{category}</div>
                         </span>
-                      );
-                      })}
+                      ))}
                     </div>
                 </div>
               </a>
@@ -77,7 +76,7 @@ const Event = () => {
   {/*START POPULAR1*/}
     <div className="event-popular">
       <div className="content">
-      <p className="section-title">Popular now in Helsinky</p>
+      <p className="section-title">Popular now in Helsinki</p>
         {eventsData.slice(0, 4).map((event) => {
             const styles = {backgroundImage: `url(${event.imgPath})`};
             return (
@@ -240,7 +239,13 @@ const Event = () => {
     </div>
   {/*END FREE EVENTS*/}
 {/*TODO: SLIDER*/}
-  <h1>SLIDER</h1>
+  <div className="featured-org">
+  <p className="section-title">Featured organizers</p>
+  <hr className="horizon-line" />
+    <div className="featured-org-container">
+        SLIDER
+    </div>
+  </div>
   </div>
   );
 

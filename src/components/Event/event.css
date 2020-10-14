@@ -331,6 +331,29 @@ margin-left: 14px;
   color: #555555;
 }
 
+.horizon-line{
+  width: 36px;
+  height: 0px;
+  border: 2px solid #F24B6A;
+}
+
+.featured-org{
+  position: relative;
+  margin-top: 16px;
+  /*padding-top: 65px;*/
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-org-container{
+  position: relative;
+  width: calc(100% - 100px);
+  padding-top: 54px;
+}
+
 @media (min-width: 768px) {
 
   .event-container {
@@ -362,5 +385,11 @@ margin-left: 14px;
     top: -58px;
     height: 65px;
 }
+
+.featured-org{
+  margin-top: 150px;
+
+}
+
 
 }

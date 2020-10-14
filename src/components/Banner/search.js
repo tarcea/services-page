@@ -6,18 +6,23 @@ import { MdLocationOn, MdPerson } from 'react-icons/md';
 import { FaCalendarAlt, FaChevronDown } from 'react-icons/fa';
 import Calendar from './calendar';
 
-const Search = () => {
-  const [city, setCity] = useState("Helsinky");
+function Search()  {
+  const [city, setCity] = useState("Helsinki");
 
   const showCalendar = () => {
     return (
       <Calendar />
     );
-
   }
 
   const cityLocation = (e) => {
     return setCity(e.target.value)
+  }
+
+  const lineSelected = (e) => {
+
+      e.target.classList.toggle("search-event-input-selected")
+
   }
 
   return (
@@ -27,15 +32,16 @@ const Search = () => {
       {/*TODO: reusable componemnt for each search field??*/}
             <div className="input-field-icon">
                 <MdLocationOn className="search-icons" />
-                <input className="search-event-input" type="text" placeholder="the place" onChange={cityLocation} value={city} />
+                <input className="search-event-input" type="text" placeholder="the place" onChange={cityLocation} value={city} onFocus={lineSelected} />
                 <FaChevronDown className="search-icons relative-right"/>
             </div>
         </div>
         <div className="search-event-params select-2">
             <div className="input-field-icon">
                 <FaCalendarAlt className="search-icons" />
-                <input id="start-date" className="search-event-input" type="text" placeholder="Starting date" />
+                <input id="start-date" className="search-event-input" type="text" placeholder="Starting date" onFocus={lineSelected}/>
                 <FaChevronDown className="search-icons relative-right"/>
+
             </div>
         </div>
         <div className="search-event-params select-3">

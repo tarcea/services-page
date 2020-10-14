@@ -20,6 +20,7 @@ input::placeholder {
         opacity: 0.5;
       }
 
+
 /*icons*/
 .search-icons {
   color: #000000;
@@ -35,6 +36,7 @@ input::placeholder {
 .container {
   display: flex;
   justify-content: center;
+  /*max-width: 100%;*/
 }
 /*search fields*/
 .search-events {
@@ -64,8 +66,15 @@ input::placeholder {
 }
 
 .search-event-input {
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #CACACA;
+  color: #737070;
 }
+
+.search-event-input-selected {
+  border-bottom: 1px solid #F24B6A;
+}
+
+
 .search-event-params {
   margin: 0px;
 

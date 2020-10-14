@@ -1,7 +1,9 @@
 import React from 'react';
 import Option from '../option';
+import RangeSlider from './range_slider';
 
-const EventPrice = () => {
+const EventPrice = (props) => {
+  console.log()
   return (
     <div>
       <p className="filter-left-subtitle">Price:</p>
@@ -9,9 +11,10 @@ const EventPrice = () => {
         <Option className="price-range">Free</Option>
         €10 - €50
       </div>
-      <div className="slider-box">
-        <div className="price-range">
-          <input type="range" />
+      <div >
+        <div >
+          <RangeSlider className="slider-box" />
+
         {/*TODO:double thumb slider as a new component??*/}
         </div>
       </div>

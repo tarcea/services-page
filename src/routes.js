@@ -13,12 +13,12 @@ class Routes extends Component {
     return (
       <Layout>
         <Switch>
-          <Route path="/" exact component={Event} />
           <Route path="/event" exact component={Event} />
           <Route path="/restaurant" exact component={Restaurant} />
           <Route path="/flight" exact component={Flight} />
           <Route path="/job" exact component={Job} />
           <Route path="/hotel" exact component={Hotel} />
+          <Route path="/" exact component={Event} />
         </Switch>
       </Layout>
 
