@@ -1,6 +1,27 @@
 .MuiSlider-root {
   color: #F24B6A !important;
 }
+.MuiSlider-valueLabel {
+  display: none;
+}
+
+.MuiSlider-thumb {
+  width: 22px !important;
+  height: 22px !important;
+  background: #FFFFFF !important;
+  border: 1px solid #919191;
+  border-radius: 50%;
+}
+
+.MuiSlider-rail {
+  color: #DCDCDC;
+  height: 8px !important;
+  opacity: 1 !important;
+}
+
+.MuiSlider-track {
+  height: 8px !important;
+}
 
 .filter-left {
   /*padding-top: 24px;*/
