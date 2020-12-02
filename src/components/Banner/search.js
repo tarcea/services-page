@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-// import { Fragment } from 'react';
-// import Form from '../Form/form';
-import './search.css';
+import search from './Search.module.css';
 import { MdLocationOn, MdPerson } from 'react-icons/md';
 import { FaCalendarAlt, FaChevronDown } from 'react-icons/fa';
 import Calendar from './calendar';
@@ -26,43 +24,35 @@ function Search()  {
   }
 
   return (
-    <div className="container">
-     <div className="search-events">
-        <div className="search-event-params select-1">
-      {/*TODO: reusable componemnt for each search field??*/}
-            <div className="input-field-icon">
-                <MdLocationOn className="search-icons" />
-                <input className="search-event-input" type="text" placeholder="the place" onChange={cityLocation} value={city} onFocus={lineSelected} />
-                <FaChevronDown className="search-icons relative-right"/>
-            </div>
+    <div className={search.container}>
+     <div className={search.events}>
+      <div className={search.icons}>
+        <MdLocationOn className={search.rico} />
+        <input className={search.inputs} type="text" placeholder="the place" onChange={cityLocation} value={city} onFocus={lineSelected} />
+        <div className={search.vertical}></div>
+      </div>
+      <div className={search.icons}>
+        <FaCalendarAlt className={search.rico} />
+        <input className={search.inputs} type="text" placeholder="Starting date" onFocus={lineSelected}/>
+        <FaChevronDown className={search.rico}/>
+        <div className={search.vertical}></div>
+      </div>
+      <div className={search.icons}>
+        <FaCalendarAlt className={search.rico} />
+        <input className={search.inputs} type="text" placeholder="Ending date" />
+        <FaChevronDown className={search.rico} />
+        <div className={search.vertical}></div>
+      </div>
+      <div className={search.icons}>
+        <MdPerson className={search.rico} />
+        <input className={search.inputs} type="text" placeholder="number guests" />
+        <div className={search.vertical}></div>
+      </div>
+      <div className={search.btn}>
+        <div>
+            <p>Let’s go !</p>
         </div>
-        <div className="search-event-params select-2">
-            <div className="input-field-icon">
-                <FaCalendarAlt className="search-icons" />
-                <input id="start-date" className="search-event-input" type="text" placeholder="Starting date" onFocus={lineSelected}/>
-                <FaChevronDown className="search-icons relative-right"/>
-
-            </div>
-        </div>
-        <div className="search-event-params select-3">
-            <div className="input-field-icon">
-                <FaCalendarAlt className="search-icons" />
-                <input id="end-date" className="search-event-input" type="text" placeholder="Ending date" />
-                <FaChevronDown className="search-icons relative-right" />
-            </div>
-        </div>
-        <div className="search-event-params select-4">
-            <div className="input-field-icon">
-                <MdPerson className="search-icons" />
-                <input id="guest-number-2" className="search-event-input" type="text" placeholder="number guests" />
-                <FaChevronDown className="search-icons relative-right" />
-            </div>
-        </div>
-        <div className="lets-go-btn">
-            <div>
-                <p>Let’s go !</p>
-            </div>
-        </div>
+      </div>
     </div>
   </div>
   );

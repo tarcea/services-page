@@ -20,7 +20,7 @@ function Event() {
           <p className="results-found">Helsinki: {data.length} events found</p>
         </div>
         <div className="parent">
-          {data.slice(0, 6).map((event) => {
+          {data.slice(0, 9).map((event) => {
             const styles = {backgroundImage: `url(${event.imgPath})`};
             return (
               <div className="event-card" key={event.id}>
@@ -66,7 +66,7 @@ function Event() {
             </div>
           );
           })}
-          <div class="see-more-events">
+          <div className="see-more-events">
             <p>SEE MORE</p>
             <FaChevronDown className="more-icon"/>
           </div>

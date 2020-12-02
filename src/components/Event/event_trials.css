@@ -1,19 +1,24 @@
-/*react-icons*/
-.global-class-name {
-  position: relative;
-  top: 2px;
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 0;
 }
 
 .event-container {
   position: relative;
-  width: 88%;
-  /*margin: 0, auto;*/
-  /*max-width: 1340px;*/
+  /*width: 100%;*/
+  max-width: 1340px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /*justify-content: space-between;*/
-
+  padding: 30px 0;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 .left-scene {
   flex: 0 0 15%;
@@ -32,11 +37,18 @@
   padding-top: 61px;
 }
 
+/*react-icons*/
+.global-class-name {
+  position: relative;
+  top: 2px;
+}
+
+
+
 .parent {
     display: grid;
-    grid-gap: 4px;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
 a {
@@ -93,8 +105,8 @@ color: #F24B6A;
 }
 
 
-.event-card {
-  transform: scale(0.8);
+.event-card .fas{
+  transform: scale(.9);
 }
 
 .like-rate{
@@ -272,6 +284,10 @@ margin-left: 14px;
   color: #646464;
 }
 
+.btn-design {
+
+}
+
 /* see-more-events */
 .see-more-events{
   display: flex;
@@ -353,47 +369,10 @@ margin-left: 14px;
   padding-top: 54px;
 }
 
-@media (min-width: 768px) {
-
-
-  .event-container {
-    flex-direction: row;
+@media screen and (max-width: 900px) {
+  .main-container {
+    flex-direction: column;
+    padding: 0;
   }
-
-  .event-card {
-  transform: scale(0.9);
 }
 
-  .event-popular {
-    padding-top: 120px;
-    /*width: 100vw;*/
-  }
-
-  .see-more-events {
-    /*visibility: hidden;*/
-    /*display: none;*/
-  }
-
-  .more-icon {
-    /*visibility: hidden;*/
-    /*display: none;*/
-  }
-
-  .content {
-    flex-direction: row;
-    width: calc(100% - 200px);
-  }
-
-  .section-title {
-    position: absolute;
-    top: -58px;
-    height: 65px;
-}
-
-.featured-org{
-  margin-top: 150px;
-
-}
-
-
-}
