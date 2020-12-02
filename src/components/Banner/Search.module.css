@@ -21,7 +21,7 @@ input::placeholder {
       }
 
 .container {
-  width: 95%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -87,10 +87,10 @@ input::placeholder {
   color: #FFFFFF;
 }
 .btn {
-  width: 50%;
+  width: 146px;
+  height: 38px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-self: center;
 }
 
 .vertical {

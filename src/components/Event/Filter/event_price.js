@@ -1,16 +1,10 @@
 import React from 'react';
-import Option from '../option';
 import RangeSlider from './range_slider';
 
-const EventPrice = (props) => {
+const EventPrice = () => {
   console.log()
   return (
     <div>
-      <p className="filter-left-subtitle">Price:</p>
-      <div className="price-row">
-        <Option className="price-range">Free</Option>
-        €10 - €50
-      </div>
       <div >
         <div >
           <RangeSlider className="slider-box" />
