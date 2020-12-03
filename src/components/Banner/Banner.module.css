@@ -62,3 +62,29 @@
   /*color: #F24B6A;*/
   filter: brightness(120%);
 }
+
+.selected {
+  background: #f24b6a;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .center {
+    font-size: 48px;
+  }
+
+  .nav li {
+    font-size: 18px;
+    padding: 5px 85px;
+  }
+
+  .form {
+    margin-top: 80px;
+  }
+  .banner {
+    height: 450px;
+  }
+
+
+}

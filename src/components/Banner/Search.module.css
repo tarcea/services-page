@@ -21,8 +21,8 @@ input::placeholder {
       }
 
 .container {
-  width: 85%;
-  margin: 0 auto;
+  /*width: 85%;*/
+  margin: 0 100px;
 }
 
 .events {
@@ -31,7 +31,7 @@ input::placeholder {
   /*width: 1120px;
   height: 66px;*/
   align-items: center;
-  grid-template-columns: repeat(5, 1fr);;
+  grid-template-columns: repeat(5, auto);
   grid-template-rows: 64px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);

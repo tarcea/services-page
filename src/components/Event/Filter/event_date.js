@@ -14,7 +14,7 @@ const EventDate = () => {
 
         <div className="event-more-date input-icon">
           <input type="text" placeholder="Choose your date" />
-          <FaChevronDown className="search-icons"/>
+          <FaChevronDown className="search-icons down-date"/>
           </div>
         </div>
       </div>

@@ -18,6 +18,13 @@ function Event() {
       <div className="right-scene">
         <div className="results-top">
           <p className="results-found">Helsinki: {data.length} events found</p>
+          <div className="sort-label">
+            <p>Sort by: </p>
+            <div className="event-more-date input-icon">
+              <input type="text" placeholder="Featured Elements" />
+            <FaChevronDown className="search-icons"/>
+            </div>
+          </div>
         </div>
         <div className="parent">
           {data.slice(0, 9).map((event) => {
@@ -243,7 +250,7 @@ function Event() {
   <p className="section-title">Featured organizers</p>
   <hr className="horizon-line" />
     <div className="featured-org-container">
-        SLIDER
+        {/* SLIDER*/}
     </div>
   </div>
   </div>

@@ -7,8 +7,9 @@ import './filter.css';
 
 const useStyles = makeStyles({
   root: {
-    width: 300
+    width: 300,
   },
+
 
 });
 
