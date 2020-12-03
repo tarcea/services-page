@@ -3,7 +3,6 @@ import Search from './search';
 import BannerNav from './banner_nav';
 import banner from './Banner.module.css';
 
-
 const Banner = () => {
 
   return (

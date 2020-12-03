@@ -1,9 +1,9 @@
 .banner {
   height: 80vh;
   width: 100%;
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/banner.jpg");*/
-  background-image: url("/images/banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/banner.jpg");
+  /*background-image: url("/images/banner.jpg");*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,9 +27,11 @@
 }
 
 .form {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
 }
+
 
 .nav {
   color: #fff;
