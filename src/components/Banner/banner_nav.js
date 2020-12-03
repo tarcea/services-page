@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './banner.css';
+import banner from './Banner.module.css';
 
 function BannerNav() {
 
   const handleClass = (path) => {
     if(window.location.pathname === path)
-      return 'banner-link-selected'
+      return banner.selected
   }
 
   const handleClick = (e) => {
     const lili = document.getElementById('banner-link').getElementsByTagName("a");
     for (let i = 0; i < lili.length; i++) {
-      lili[i].classList.remove('banner-link-selected');
+      lili[i].classList.remove(banner.selected);
     }
-    e.target.classList.add('banner-link-selected');
+    e.target.classList.add(banner.selected);
 }
   return (
     <ul id="banner-link">
