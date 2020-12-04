@@ -250,7 +250,13 @@ function Event() {
   <p className="section-title">Featured organizers</p>
   <hr className="horizon-line" />
     <div className="featured-org-container">
-        {/* SLIDER*/}
+      <div className="slide-arrow left"></div>
+      <div className="slide-card"></div>
+      <div className="slide-card"></div>
+      <div className="slide-card"></div>
+      <div className="slide-card"></div>
+      <div className="slide-card"></div>
+      <div className="slide-arrow right"></div>
     </div>
   </div>
   </div>

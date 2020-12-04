@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 // import Main from './components/Main/main';
 import Event from './components/Event/event';
 import Restaurant from './components/Restaurant/restaurant';
@@ -18,7 +18,9 @@ class Routes extends Component {
           <Route path="/flight" exact component={Flight} />
           <Route path="/job" exact component={Job} />
           <Route path="/hotel" exact component={Hotel} />
-          <Route path="/" exact component={Event} />
+          <Route path="/" exact component={() =>
+              <Redirect to="/event" />
+            } />
         </Switch>
       </Layout>
 
