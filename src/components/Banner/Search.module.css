@@ -85,7 +85,7 @@ input::placeholder {
 
 .down {
   position: relative;
-  right: 10px;
+  right: 5px;
 }
 
 .selected {
@@ -100,7 +100,8 @@ input::placeholder {
   height: 47px;
   border-right: 1px solid rgba(165, 165, 165, 0.8);
   margin: 0 0px 0 20px;
-}
+  }
+
   .events {
     display: grid;
     /*position: relative;*/
@@ -120,7 +121,7 @@ input::placeholder {
   margin: 0 100px;
   display: flex;
   overflow: hidden;
-}
+  }
 
   .params {
     border-right: 1px solid;
@@ -133,6 +134,10 @@ input::placeholder {
 
   .btn {
     padding: 0;
+  }
+
+  input {
+    width: 100%;
   }
 
 }

@@ -17,7 +17,7 @@ function BannerNav() {
     e.target.classList.add(banner.selected);
 }
   return (
-    <ul id="banner-link">
+    <ul id="banner-link" className={banner.nav}>
       <li><Link to="/event" onClick={handleClick} className={handleClass("/event")}>Event</Link></li>
       <li><Link to="/flight" onClick={handleClick} className={handleClass("/flight")}>Flight</Link></li>
       <li><Link to="/hotel" onClick={handleClick} className={handleClass("/hotel")}>Hotel</Link></li>

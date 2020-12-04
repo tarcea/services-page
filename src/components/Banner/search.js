@@ -17,7 +17,8 @@ function Search()  {
 
   return (
     <div className={search.container}>
-      <form onClick={focusToggle}
+      <form className={search.form}
+            onClick={focusToggle}
             onBlur={focusToggle}
       >
        <div className={search.events}>
