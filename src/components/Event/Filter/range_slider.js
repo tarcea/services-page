@@ -10,7 +10,6 @@ const useStyles = makeStyles({
     width: 300,
   },
 
-
 });
 
 function valuetext(value) {
