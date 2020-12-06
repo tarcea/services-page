@@ -6,8 +6,9 @@ import { FaChevronDown } from 'react-icons/fa';
 import './event.css';
 // Components
 import Filter from './Filter/filter';
+import PhotoSlider from './PhotoSlider/slider';
 
-function Event() {
+function Event(props) {
   const [data, setData] = useState(eventsData);
   return (
     <div className="main-container">
@@ -250,14 +251,10 @@ function Event() {
   <p className="section-title">Featured organizers</p>
   <hr className="horizon-line" />
     <div className="featured-org-container">
-      <div className="slide-arrow left"></div>
-      <div className="slide-card"></div>
-      <div className="slide-card"></div>
-      <div className="slide-card"></div>
-      <div className="slide-card"></div>
-      <div className="slide-card"></div>
-      <div className="slide-arrow right"></div>
+      <PhotoSlider
+        />
     </div>
+
   </div>
   </div>
   );
