@@ -7,12 +7,30 @@ class PhotoSlider extends Component {
     const settings = {
       dots: false,
       arrows: true,
-      infinite: false,
+      infinite: true,
       speed: 500,
-      slidesToShow: 5,
-      slidesToScroll: 2,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       initialSlide: 0,
       responsive: [
+        {
+          breakpoint: 1920,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 1500,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            infinite: true,
+            dots: false
+          }
+        },
       {
           breakpoint: 1400,
           settings: {
@@ -34,28 +52,22 @@ class PhotoSlider extends Component {
         },
 
         {
-          breakpoint: 900,
+          breakpoint: 940,
           settings: {
+            arrows: false,
             slidesToShow: 2,
             slidesToScroll: 2,
             infinite: true,
             dots: false
           }
         },
-
         {
-          breakpoint: 600,
+          breakpoint: 560,
           settings: {
+            arrows: false,
             slidesToShow: 1,
             slidesToScroll: 1,
-            initialSlide: 1
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            infinite: true,
           }
         }
       ]
