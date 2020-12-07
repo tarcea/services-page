@@ -9,8 +9,8 @@ class PhotoSlider extends Component {
       arrows: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 6,
+      slidesToScroll: 6,
       initialSlide: 0,
       responsive: [
         {
